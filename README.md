@@ -1,1 +1,2 @@
 # Kata4
+Voy a ampliar el proyecto añadiendo una capa de presentación con JFreeChart, gestionando las dependencias vía Maven. El reto aquí es implementar una separación de responsabilidades clara. Voy a estructurarlo de forma que el Modelo (los registros) y el View Model (el histograma) sean independientes de la Vista (el gráfico en sí). Todo el flujo estará orquestado por un código de Control para evitar el acoplamiento entre los datos y la librería gráfica.
